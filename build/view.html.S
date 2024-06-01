@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/luise/espressif_workspace/ESP32_Aplicacion/main/view.html
+/* * Data converted from C:/Users/laura/Documents/Tec/6_semestre/Arquitectura/ESP32_Aplicacion/ESP32_Aplicacion/main/view.html
  * (null byte appended)
  */
 .data

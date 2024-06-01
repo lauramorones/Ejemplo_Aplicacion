@@ -1,4 +1,4 @@
-/* * Data converted from C:/Users/luise/espressif_workspace/ESP32_Aplicacion/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/laura/Documents/Tec/6_semestre/Arquitectura/ESP32_Aplicacion/ESP32_Aplicacion/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/luise/espressif_workspace/ESP32_Aplicacion
+# Install script for directory: C:/Users/laura/Documents/Tec/6_semestre/Arquitectura/ESP32_Aplicacion/ESP32_Aplicacion
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/luise/espressif_workspace/ESP32_Aplicacion/build/esp-idf/cmake_install.cmake")
+  include("C:/Users/laura/Documents/Tec/6_semestre/Arquitectura/ESP32_Aplicacion/ESP32_Aplicacion/build/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/luise/espressif_workspace/ESP32_Aplicacion/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/laura/Documents/Tec/6_semestre/Arquitectura/ESP32_Aplicacion/ESP32_Aplicacion/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/luise/espressif_workspace/ESP32_Aplicacion/main
+# Install script for directory: C:/Users/laura/Documents/Tec/6_semestre/Arquitectura/ESP32_Aplicacion/ESP32_Aplicacion/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
