@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ESP32 PROYECTO FINAL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+    <style>
+        html {
+            font-family: Helvetica;
+            display: inline-block;
+            margin: 0px auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: #0F3376;
+            padding: 2vh;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        td {
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        .Button {
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff;
+            font-weight: bold;
+            font-style: italic;
+            padding: 10px 12px;
+            text-decoration: none;
+            font-size: 16px;
+            font-family: Arial;
+            width: 90px;
+            height: 30px;
+            border-width: 1px;
+            border-radius: 6px;
+            margin: 3px;
+            background: linear-gradient(#888888, #555555);
+        }
+
+        .Button:hover {
+            background: linear-gradient(#777777, #444444);
+        }
+
+        .Button:active {
+            position: relative;
+            top: 1px;
+        }
+
+        /* Nueva regla para el botón Parar */
+        .ButtonStop {
+            background: linear-gradient(#FF0000, #AA0000); /* Cambia el color a rojo */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>ESP32 PROYECTO FINAL</h1>
+    <p>Gamepad</p>
+
+    <table>
+        <tbody>
+            <tr>
+                <td></td>
+                <td>
+                    <p><a href="/?action=up"><button class="ButtonUp Button">Avanzar</button></a></p>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <p><a href="/?action=left"><button class="ButtonLeft Button">Izquierda</button></a></p>
+                </td>
+                <td>
+                    <!-- Botón Parar con clase ButtonStop -->
+                    <p><a href="/?action=stop"><button class="ButtonStop Button">Parar</button></a></p>
+                </td>
+                <td>
+                    <p><a href="/?action=right"><button class="ButtonRight Button">Derecha</button></a></p>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <p><a href="/?action=down"><button class="ButtonDown Button">Atras</button></a></p>
+                </td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
